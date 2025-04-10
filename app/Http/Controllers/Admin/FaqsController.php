@@ -37,7 +37,6 @@ class FaqsController extends Controller
     return view('admin.pages.faqs.index');
 }
 
-
     // public function store(Request $request)
     // {
     //     // Trim whitespace from the input
