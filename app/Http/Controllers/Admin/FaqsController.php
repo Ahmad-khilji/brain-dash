@@ -37,7 +37,6 @@ class FaqsController extends Controller
     return view('admin.pages.faqs.index');
 }
 
-
     // public function store(Request $request)
     // {
     //     // Trim whitespace from the input
@@ -149,7 +148,6 @@ class FaqsController extends Controller
         ]);
     
         try {
-            // Find the FAQ record by ID
             $faq = Faqs::findOrFail($id);
     
             // Update the record with the new values from the request
