@@ -148,7 +148,6 @@ class FaqsController extends Controller
         ]);
     
         try {
-            // Find the FAQ record by ID
             $faq = Faqs::findOrFail($id);
     
             // Update the record with the new values from the request
